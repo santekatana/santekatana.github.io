@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 1fr 50px; /* Header, Main/Footer */
+    grid-template-columns: 200px 1fr; /* Menu och Main */
+    width: 80%;
+    height: 80%;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    grid-column: 1 / -1; /* Header går över hela bredden */
+    background-color: #007BFF;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.menu {
+    background-color: #343a40;
+    color: white;
+    padding: 0;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #555;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.menu li a:hover {
+    background-color: #007BFF;
+}
+
+.main {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.footer {
+    grid-column: 1 / -1; /* Footer går över hela bredden */
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}

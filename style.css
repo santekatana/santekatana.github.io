@@ -1,0 +1,17 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+#BMW1  {
+    height: 150px;
+    border: 20px blanchedalmond dashed;
+    border: 10px rgb(32, 82, 191) solid;
+}
+
+#dino2  {
+    height: 150px;
+    border: 20px yellow dotted;
+    border: 10px rgb(191, 32, 32) solid;
+
+}

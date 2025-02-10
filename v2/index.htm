@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout med Vänstermeny</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">Header</header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#start">Start</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#modeller">Modeller</a></li>
+            </ul>
+        </nav>
+        <main class="main">Huvudinnehåll</main>
+        <footer class="footer">Footer</footer>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tredelad Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-rows: 80px 1fr 50px;
+            grid-template-columns: 1fr;
+            height: 100vh;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+        }
+
+        main {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>
+            Header: Navigering eller logotyp
+        </header>
+        <main>
+            <h1>Välkommen till min hemsida</h1>
+            <p>Det här är huvudsektionen där ditt huvudinnehåll visas.</p>
+        </main>
+        <footer>
+            Footer: © 2024 Ditt Företag
+        </footer>
+    </div>
+</body>
+</html>
