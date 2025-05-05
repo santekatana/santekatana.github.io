@@ -62,3 +62,37 @@ body {
     border: 10px rgb(191, 32, 32) solid;
 
 }
+
+/* ------------------------------- */
+.card {
+    background: white;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+
+  .card img {
+    width: 100%;
+    display: block;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .card-content h2 {
+    margin-top: 0;
+    color: #003a70;
+  }
+
+  .specs {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+
+  .specs span {
+    display: block;
+    font-weight: bold;
+    color: #555;
+  }

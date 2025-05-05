@@ -55,6 +55,40 @@
     #bmwlogo {
         width: 10%;
     }
+
+
+    .card {
+      background: white;
+      max-width: 600px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h2 {
+      margin-top: 0;
+      color: #003a70;
+    }
+
+    .specs {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    .specs span {
+      display: block;
+      font-weight: bold;
+      color: #555;
+    }
   </style>
 </head>
 <body>
@@ -88,11 +122,168 @@ Hur produceras BMW? Bid på fabrik? Tekniska detaljer...
     <div class="box">
         Varför är BMW intressant? 
     </div>
-    <div class="box">Kända BMW bilar  
-        Lägg in bilder på bilar
-        <img src="img/BMW1.jfif">
-        Caption Produktionsår - prisuppgift
+
+    <div class="box">
+      <h1> Ett urval från olika tidsepoker</h1>
+
+
+<!-- 1940s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/BMW_328_Touring_Coupe.jpg" alt="BMW 328 Touring Coupe 1940">
+  <div class="card-content">
+    <h2>BMW 328 Touring Coupe (1940)</h2>
+    <div class="specs">
+      <span>Designår:</span> 1939
+      <span>Produktionsår:</span> 1939–1940
+      <span>Egenskaper:</span>
+      Lättviktskaross i aluminium, aerodynamisk design, 2.0L rak 6-cylindrig motor, toppfart över 200 km/h. Vinnare av Mille Miglia 1940.
     </div>
+  </div>
+</div>
+
+<!-- 1950s -->
+<div class="card">
+  <img src="https://www.conceptcarz.com/images/bmw/bmw_01-501_01.jpg" alt="BMW 502 Coupe 1955">
+  <div class="card-content">
+    <h2>BMW 502 Coupe (1955)</h2>
+    <div class="specs">
+      <span>Designår:</span> 1954
+      <span>Produktionsår:</span> 1954–1961
+      <span>Egenskaper:</span>
+      Första tyska bil med V8-motor efter kriget, lyxig interiör, avancerad teknik för sin tid.
+    </div>
+  </div>
+</div>
+
+<!-- 1960s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/BMW_2002_TI.jpg" alt="BMW 2002 TI 1968">
+  <div class="card-content">
+    <h2>BMW 2002 TI (1968)</h2>
+    <div class="specs">
+      <span>Designår:</span> 1966
+      <span>Produktionsår:</span> 1966–1977
+      <span>Egenskaper:</span>
+      Sportig kompakt sedan, 2.0L motor, känd för sin körglädje och prestanda, bidrog till BMW:s rykte som sportbilsmärke.
+    </div>
+  </div>
+</div>
+
+<!-- 1970s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/BMW_M1_1978.jpg" alt="BMW M1 1978">
+  <div class="card-content">
+    <h2>BMW M1 (1978)</h2>
+    <div class="specs">
+      <span>Designår:</span> 1977
+      <span>Produktionsår:</span> 1978–1981
+      <span>Egenskaper:</span>
+      BMW:s första mittmotorbil, 3.5L rak 6-cylindrig motor, designad av Giugiaro, endast 453 exemplar tillverkade.
+    </div>
+  </div>
+</div>
+
+<!-- 1980s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/BMW_E30_M3.jpg" alt="BMW E30 M3 1986">
+  <div class="card-content">
+    <h2>BMW E30 M3 (1986)</h2>
+    <div class="specs">
+      <span>Designår:</span> 1985
+      <span>Produktionsår:</span> 1986–1992
+      <span>Egenskaper:</span>
+      Ikonisk sportbil, 2.3L 4-cylindrig motor, framgångsrik i motorsport, särskilt DTM.
+    </div>
+  </div>
+</div>
+
+<!-- 1990s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1e/BMW_E36_3-Series.jpg" alt="BMW E36 3-serie 1990">
+  <div class="card-content">
+    <h2>BMW E36 3-serie (1990)</h2>
+    <div class="specs">
+      <span>Designår:</span> 1988
+      <span>Produktionsår:</span> 1990–2000
+      <span>Egenskaper:</span>
+      Modern design, förbättrad aerodynamik, introduktion av multilänkbakaxel, bred motorpalett.
+    </div>
+  </div>
+</div>
+
+<!-- 2000s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/BMW_E60_5-Series.jpg" alt="BMW E60 5-serie 2003">
+  <div class="card-content">
+    <h2>BMW E60 5-serie (2003)</h2>
+    <div class="specs">
+      <span>Designår:</span> 2001
+      <span>Produktionsår:</span> 2003–2010
+      <span>Egenskaper:</span>
+      Banbrytande design av Chris Bangle, introduktion av iDrive-systemet, avancerade säkerhetsfunktioner.
+    </div>
+  </div>
+</div>
+
+<!-- 2010s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/BMW_i8.jpg" alt="BMW i8 2014">
+  <div class="card-content">
+    <h2>BMW i8 (2014)</h2>
+    <div class="specs">
+      <span>Designår:</span> 2011
+      <span>Produktionsår:</span> 2014–2020
+      <span>Egenskaper:</span>
+      Plug-in hybrid sportbil, futuristisk design, kombination av elmotor och 1.5L bensinmotor, kolfiberkaross.
+    </div>
+  </div>
+</div>
+
+<!-- 2020s -->
+<div class="card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/BMW_iX3.jpg" alt="BMW iX3 2020">
+  <div class="card-content">
+    <h2>BMW iX3 (2020)</h2>
+    <div class="specs">
+      <span>Designår:</span> 2018
+      <span>Produktionsår:</span> 2020–nutid
+      <span>Egenskaper:</span>
+      Första helelektriska SUV från BMW, baserad på X3, räckvidd upp till 460 km (WLTP), bakhjulsdriven.
+    </div>
+  </div>
+</div>
+
+
+      <div class="card">
+        <img src="img/bildSaknas.png" alt="BMW 3-serie G20">
+        <div class="card-content">
+          <h2>BMW 3-serie (G20, facelift 2022)</h2>
+          <div class="specs">
+            <span>Designår:</span> 1920 
+            <span>Produktionsår:</span> 1920–??
+            <span>Egenskaper:</span>
+            Bygger på CLAR-plattformen med bak- eller fyrhjulsdrift (xDrive). Facelift 2022 introducerade ny ljussignatur och uppdaterad infotainment med iDrive 8. Finns som bensin, diesel och laddhybrid.
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="img/bildSaknas.png" alt="BMW 3-serie G20">
+        <div class="card-content">
+          <h2>BMW 3-serie (G20, facelift 2022)</h2>
+          <div class="specs">
+            <span>Designår:</span> 1940 
+            <span>Produktionsår:</span> 1940–nutid
+            <span>Egenskaper:</span>
+            Bygger på CLAR-plattformen med bak- eller fyrhjulsdrift (xDrive). Facelift 2022 introducerade ny ljussignatur och uppdaterad infotainment med iDrive 8. Finns som bensin, diesel och laddhybrid.
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+    
+    
     <div class="box">
         Kort info om dig - med bild
         Elias har länge varit intresserad av bilar. 
